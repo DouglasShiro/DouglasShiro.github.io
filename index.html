@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title>Barel Ex Magrela</title>
-	</head>
-	<body>
-
-	<h1>LISTA DOS MIGOS QUE VÃO</h1>
-	<ul>
-		<li>Deivison OK</li>	
-		<li>Douglas OK</li>	
-		<li>Ereikson </li>	
-		<li>Mateus </li>	
-	</ul>
-	</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Title</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hello Pomodoro <span id="isWorking"></span></h1>
+            <br>
+            <div class="counter">
+                <span align="center" id="minutes">25</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </div>    
+            <div class="commands">
+                <button onclick="_start_()">start</button>
+                <button onclick="_stop_()">stop</button>
+                <button onclick="_reset_()">reset</button>
+            </div>
+        </div>
+    </body>
 </html>
