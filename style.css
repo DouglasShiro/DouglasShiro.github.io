@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    max-height: 100vh;
+    overflow: hidden;
+    padding: 3em 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#minutes {
+    letter-spacing: 0.2em;
+}
+
+#seconds {
+    letter-spacing: 0.2em;
+}
+
+.commands {
+    margin-top: 3em;
+}
+
+.commands button {
+    margin: 0 1em;
+    font-size: 1.2em;
+    padding: 0.3em 1em;
+}
